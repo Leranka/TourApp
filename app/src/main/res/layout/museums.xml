@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maps"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:background="#36009688" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#36009688"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mapsImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pointer" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#004d00"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
